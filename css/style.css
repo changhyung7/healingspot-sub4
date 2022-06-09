@@ -1,0 +1,115 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+body{font-family: '나눔스퀘어';}
+
+.headerwidth{background: url(../images/banner.png)no-repeat top center;
+        width: 100%; height: 1400px;
+        margin-bottom: 200px;}
+        #header{width:1320px; margin:0 auto; height:147px;
+        
+        }
+        .logo{float:left; padding:20px 0;}
+        .nav{float:right;}
+        .nav li{float:left;}
+        .nav li a{display:block;
+                padding:60px 80px 0px 70px;
+                font-weight: bold; font-size: 24px; color: black;
+        }
+        .nav li a:hover {color:brown;}
+        
+.text{width: 1320px; margin: 0 auto; color: white; clear: both;
+text-align: center;}
+.bg1{position: relative; margin-top: 200px; overflow: hidden;}
+.bg2{position: relative; margin-top: 200px; overflow: hidden;}
+.bg3{position: relative; margin-top: 200px; overflow: hidden;}
+.bg4{position: relative; margin-top: 200px; overflow: hidden;
+margin-bottom: 200px;}
+
+        .textbg{background-color: #694b32;
+        opacity: 80%; width: 500px; height: 700px; top: 0px;
+position: absolute; right: -700px;
+transition: all 1s;}
+        .textbg2{background-color: #694b32;
+        opacity: 80%; width: 500px; height: 700px;
+position: absolute; left: -700px; top: 0px;
+transition: all 1s;}
+
+.textbg3{background-color: #694b32;
+        opacity: 80%; width: 500px; height: 700px; top: 0px;
+position: absolute; right: -700px;
+transition: all 1s;}
+        .textbg4{background-color: #694b32;
+        opacity: 80%; width: 500px; height: 700px;
+position: absolute; left: -700px; top: 0px;
+transition: all 1s;}
+
+
+.text1{position: absolute; right: 0px; top: 70px;
+transition: all 3s; opacity: 0;}
+
+.text2{position: absolute; left: 0px; top: 70px;
+        transition: all 3s; opacity: 0;}
+
+.text3{position: absolute; right: 0px; top: 70px;
+        transition: all 3s; opacity: 0;}
+
+.text4{position: absolute; left: 5px; top: 70px;
+        transition: all 3s; opacity: 0;}
+
+
+.text h1{padding: 50px 0px 150px 0px; opacity: 100%;}
+
+.text p{line-height: 48px; font-size: 24px;}
+.text h1{font-size: 64px;}
+
+
+.bg1:hover .textbg{transform: translateX(-700px);}
+.bg2:hover .textbg2{transform: translateX(700px);}
+.bg3:hover .textbg3{transform: translateX(-700px);}
+.bg4:hover .textbg4{transform: translateX(700px);}
+
+.bg1:hover .text1{transform: translateX(-75px); opacity: 1;}
+.bg2:hover .text2{transform: translateX(60px); opacity: 1;}
+.bg3:hover .text3{transform: translateX(-28px); opacity: 1;}
+.bg4:hover .text4{transform: translateX(48px); opacity: 1;}
+
+
+.footer{width: 100%; height: 255px; background-color: #373737;
+        margin-top: 0;}
+        .footertext{width: 1320px; margin: 0 auto;
+                text-align: center; padding-top: 30px; position: relative;}
+                .footertext h3{color: white; font-size: 30px;}
+.fologo{float: left;}
+.fotright{float: right;}
+.fotright ul li{float: left;}
+.fotright ul li a{display: block; padding-left: 50px;}
+.p1{color: #dedede; padding: 10px 0; position: absolute; top: 70px; left: 485px;}
+.p2{clear: both; line-height: 28px; text-align: left;
+color: #dedede; position: absolute; top: 120px; left: 400px;}
+.c2{color: white; font-weight: bold;}
+
+
+/* .box1{width: 1066px; height: 675px;
+background-color: rgba(0,0,0,0.7);
+position: absolute;left: 1920px; top: 150px;
+transition: all 3s;}
+
+.bannerwidth:hover .box1{transform: translateX(-1066px);}
+.bannerwidth:hover .box2 h1{transform: translateX(-1000px);
+opacity: 1;}
+.bannerwidth:hover .box2 p{transform: translateX(-1000px);}
+
+
+.box2{text-align: left;}
+
+.box2 h1{font-size: 87px; color: white;
+margin-bottom: 30px;
+transition:all 5s; width: 578px;
+position: absolute; top: 300px; left: 1960px;
+opacity: 1;}
+
+.box2 p{font-size: 40px; color: white;
+transition: all 7s; width: 578px;
+position: absolute; top: 550px; left: 1960px;
+} */
