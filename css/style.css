@@ -13,7 +13,7 @@ body{font-family: '나눔스퀘어';}
         .nav{float:right;}
         .nav li{float:left;}
         .nav li a{display:block;
-                padding:60px 80px 0px 70px;
+                padding:70px 65px 0px 55px;
                 font-weight: bold; font-size: 24px; color: black;
         }
         .nav li a:hover {color:brown;}
